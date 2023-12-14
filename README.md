@@ -1,0 +1,1 @@
+# Information-structure-of-heterogeneous-criticality
