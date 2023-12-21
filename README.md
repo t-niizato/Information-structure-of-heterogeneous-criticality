@@ -5,4 +5,4 @@ The user can check the IIT animation with different group integrity (direction a
 
 Run PHI_real_fish.py with Python files (Python 3.9 recommended).
 
-Select the data number from 0~7.
+Select the data number from 0~6.
