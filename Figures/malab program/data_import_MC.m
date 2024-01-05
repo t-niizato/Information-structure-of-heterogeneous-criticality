@@ -1,0 +1,26 @@
+index = 1:7;
+data_type = ["dtheta", "dspeed"];
+lengths = [200, 400, 600];
+MC_COM = cell(2, 7);
+MC_numCOM = cell(2, 7);
+MC_PHI = cell(2, 7);
+MC_sumPHI = cell(2, 7);
+
+for i = 1:7
+    MC_COM{1, i} = readmatrix("MC_" + data_type(1) + "_" + num2str(index(i)) ...
+        + "_" + num2str(lengths(l)) + "_20 (sec).csv");
+    MC_COM{2, i} = readmatrix("MC_" + data_type(2) + "_" + num2str(index(i)) ...
+        + "_" + num2str(lengths(l)) + "_20 (sec).csv");
+    MC_numCOM{1, i} = readmatrix("MCnum_" + data_type(1) + "_" + num2str(index(i)) ...
+        + "_" + num2str(lengths(l)) + "_20 (sec).csv");
+    MC_numCOM{2, i} = readmatrix("MCnum_" + data_type(2) + "_" + num2str(index(i)) ...
+        + "_" + num2str(lengths(l)) + "_20 (sec).csv");    
+    MC_PHI{1, i} = readmatrix("MC_PHI_" + data_type(1) + "_" + num2str(index(i)) ...
+        + "_" + num2str(lengths(l)) + "_20 (sec).csv");
+    MC_PHI{2, i} = readmatrix("MC_PHI_" + data_type(2) + "_" + num2str(index(i)) ...
+        + "_" + num2str(lengths(l)) + "_20 (sec).csv");
+    MC_sumPHI{1, i} = readmatrix("MC_sumPHI_" + data_type(1) + "_" + num2str(index(i)) ...
+        + "_" + num2str(lengths(l)) + "_20 (sec).csv");
+    MC_sumPHI{2, i} = readmatrix("MC_sumPHI_" + data_type(2) + "_" + num2str(index(i)) ...
+        + "_" + num2str(lengths(l)) + "_20 (sec).csv");  
+end
