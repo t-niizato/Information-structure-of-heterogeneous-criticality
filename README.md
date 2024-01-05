@@ -14,3 +14,10 @@ We listed sample raw data for IIT computation in MATLAB 2020b.
 Before running our program, please import the practical PHI toolbox (https://figshare.com/articles/code/phi_toolbox_zip/3203326).
 
 Run Main_Complex_Computation (MIP_computation).
+
+## Figures
+
+The reader can check our results (Figure 2~5) from Figures.mlx.
+
+Please connect the paths before running the above program. 
+
