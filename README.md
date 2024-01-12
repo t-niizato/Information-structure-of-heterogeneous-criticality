@@ -7,15 +7,14 @@ Run PHI_real_fish.py with Python files (Python 3.9 recommended).
 
 Select the data number from 0~6.
 
+https://github.com/t-niizato/Information-structure-of-heterogeneous-criticality/assets/153797597/848e2899-cc50-43a5-95cb-a73b7ac3c2df
+
+
 ## IIT computation from raw datasets
 
 We listed sample raw data for IIT computation in MATLAB 2020b.
 
-Before running our program, please import the practical PHI toolbox (https://
-
-https://github.com/t-niizato/Information-structure-of-heterogeneous-criticality/assets/153797597/721ed5af-e974-4e29-8f05-196a0784a75a
-
-figshare.com/articles/code/phi_toolbox_zip/3203326).
+Before running our program, please import the practical PHI toolbox \url{https://github.com/oizumi-lab/PhiToolbox}.
 
 Run Main_Complex_Computation (MIP_computation).
 
